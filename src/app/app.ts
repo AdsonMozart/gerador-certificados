@@ -5,7 +5,9 @@ import { Navbar } from "./_components/navbar/navbar";
 
 
 import { BaseUi } from "./_components/base-ui/base-ui";
-import { Certificado } from "./pages/certificado/certificado";
+import { Certificado } from './pages/certificado/certificado';
+import { Certificados } from './pages/certificados/certificados';
+
 
 
 
@@ -13,7 +15,7 @@ import { Certificado } from "./pages/certificado/certificado";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, BaseUi, Certificado],
+  imports: [RouterOutlet, Navbar, BaseUi, Certificado, Certificados ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

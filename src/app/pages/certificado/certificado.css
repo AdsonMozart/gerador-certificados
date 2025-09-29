@@ -5,6 +5,7 @@
 }
 
 .btn-voltar {
+    cursor: pointer;
     gap: 6px;
 }
 
